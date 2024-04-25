@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api');
 const fs = require('fs');
-const settings = require('./san')
+const settings = require('./tzy')
 const botToken = settings.token;
 const owner = settings.adminId;
 const adminfile = 'adminID.json';
@@ -314,7 +314,7 @@ bot.onText(/\/paymentmenu/, (msg) => {
 bot.onText(/\/dana/, (msg) => {
   const chatId = msg.chat.id;
 
-  bot.sendMessage(chatId, "Hi Kak, Jika Mau transfer owner saya uang bisa transfer ke nope di bawah\n0831xxxxxxxx\nMasih Ragu Sama owner aku? Cek aja channel testiomi owner aku yang ada di bawah ⬇️",
+  bot.sendMessage(chatId, "Hi Kak, Jika Mau transfer owner saya uang bisa transfer ke nope di bawah\n083153305709\nMasih Ragu Sama owner aku? Cek aja channel testiomi owner aku yang ada di bawah ⬇️",
     {
       reply_markup: {
         inline_keyboard: [
@@ -353,7 +353,7 @@ bot.onText(/\/rules/, (msg) => {
 bot.onText(/\/gopay/, (msg) => {
   const chatId = msg.chat.id;
 
-  bot.sendMessage(chatId, "Hi Kak, Jika Mau transfer owner saya uang bisa transfer ke nope di bawah\n0831xxxx\nMasih Ragu Sama owner aku? Cek aja channel testiomi owner aku yang ada di bawah ⬇️",
+  bot.sendMessage(chatId, "Hi Kak, Jika Mau transfer owner saya uang bisa transfer ke nope di bawah\n083153305709\nMasih Ragu Sama owner aku? Cek aja channel testiomi owner aku yang ada di bawah ⬇️",
     {
       reply_markup: {
         inline_keyboard: [
@@ -370,7 +370,7 @@ bot.onText(/\/gopay/, (msg) => {
 bot.onText(/\/ovo/, (msg) => {
   const chatId = msg.chat.id;
 
-  bot.sendMessage(chatId, "Hi Kak, Jika Mau transfer owner saya uang bisa transfer ke nope di bawah\n0831xxxx\nMasih Ragu Sama owner aku? Cek aja channel testiomi owner aku yang ada di bawah ⬇️",
+  bot.sendMessage(chatId, "Hi Kak, Jika Mau transfer owner saya uang bisa transfer ke nope di bawah\n083153305709\nMasih Ragu Sama owner aku? Cek aja channel testiomi owner aku yang ada di bawah ⬇️",
     {
       reply_markup: {
         inline_keyboard: [
@@ -406,7 +406,7 @@ bot.onText(/\/testi/, (msg) => {
   const chatId = msg.chat.id;
 
   // Menampilkan chenel
-  bot.sendMessage(chatId, "CHANNEL TESTIOMI SAYA ADA DI BAWAH👇",
+  bot.sendMessage(chatId, "CHANNEL TESTIMONI SAYA ADA DI BAWAH👇",
     {
       reply_markup: {
         inline_keyboard: [
