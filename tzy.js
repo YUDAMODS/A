@@ -5,7 +5,7 @@ CREACOT : YudaMods
 */
 
 const settings = {
-  token: '7085058799:AAHSOH38mRcYMOPfxPJ6JKmaMvHNdoI8EJA',// Token Bot panel dan domain
+  token: '7085058799:AAHOkmorGoR_hijb3ByfoYxS0-sD1EBTjz4',// Token Bot panel dan domain
   adminId: '5887546516',
   urladmin: 'https://t.me/YUDAMODS',
   domain: 'https://buyer.paneellkuu.my.id', // Isi dengan domain yang digunakan
