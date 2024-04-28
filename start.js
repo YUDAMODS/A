@@ -5,4 +5,4 @@ CREACOT : AkmalMods
 */
 
 require("./yudamods")
-require("./bug")
+//require("./bug")
